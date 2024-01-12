@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #8EE0DC;
+}
+
+form {
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: column;
+    background-color: #33435C;
+    gap: 1rem;
+    border: 5px solid black;
+    width: 700px;
+    padding: 2rem;
+}
+
+input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: #33435C;
+    color: #FEE593;
+
+}
+
+span {
+    width: 170px;
+    color: white;
+}
+
+select {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    background-color: #33435C;
+    color: #FEE593;
+}
+
+div {
+    padding-top: 1rem;
+}
+
+.a {
+    text-align: center;
+    color: #FEE593;
+    font-size: 2rem;
+}
+
+.b {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.center {
+    width: 400px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullname {
+    display: flex
+}
+
+.fullnameinput {
+    width: 190px;
+}
+
+.fullname div {
+    display: flex;
+    gap: 20px;
+}
+
+.radiocenter {
+    display: flex;
+
+}
+
+.radiocenterinput {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding-left: 11.5rem;
+}
+
+.submit {
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #FFE591;
+    color: #33435C;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.surgerydetails {
+    padding-bottom: 3rem;
+}
+
+.labelfirst {
+    position: absolute;
+    margin: 1.2rem 0.1rem;
+    color: white;
+}
+
+.labellast {
+    position: absolute;
+    margin: 1.2rem 0.1rem;
+    color: white;
+}
