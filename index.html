@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
 </head>
 
 <body>
@@ -50,58 +52,30 @@
                 <input type="radio" name="yesorno1" value="yes" required> <span style="color: #FEE593;">Yes</span>
                 <input type="radio" name="yesorno1" value="no" required> <span style="color: #FEE593;">No</span>
             </div>
-
-        </div>
-
-        <div class="flex">
-            <span>Who's your insurance agent? <span style="color: red;">*</span></span>
-            <input class="center" type="text" name="insuranceagent" placeholder="" required>
-        </div>
-
-        <div class="radiocenter">
-
-            <span> Have you ever claimed insurance? <span style="color: red;">*</span></span>
-
-            <div class="radiocenterinput">
-
-                <input type="radio" name="yesorno2" value="yes" required> <span style="color: #FEE593;">Yes</span>
-                <input type="radio" name="yesorno2" value="no" required> <span style="color: #FEE593;">No</span>
-
+            <div class="row radio-row">
+                <div class="label__wrapper">
+                    <p>Have you undergone any surgeries?<p class="red">*</p></p>
+                </div>
+                <div class="inputs__wrapper">
+                        <input name="surgeries" type="radio">
+                        <p>Yes</p>
+                        <input name="surgeries" type="radio">
+                        <p>No</p>
+                </div>
             </div>
-
+            <div class="row">
+                <div class="label__wrapper">
+                    <p>Give your surgery details</p>
+                </div>
+                <div class="inputs__wrapper">
+                    <div class="input__wrapper">
+                        <input class="textInput" type="text">
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="flex">
-
-            <span>Who's your nominee? <span style="color: red;">*</span></span>
-            <input class="center" type="text" name="illness" placeholder="" required>
-
-        </div>
-
-        <div class="flex">
-
-            <span>What's your insurance company? <span style="color: red;">*</span></span>
-            <input class="center" type="text" name="illness" placeholder="" required>
-
-        </div>
-
-        <div class="flex surgerydetails">
-
-            <span>Give your surgery details</span>
-            <input class="center" type="text" name="illness" placeholder="">
-
-        </div>
-
-
-        <button class="submit" type="submit">Submit</button>
-
-
-    </form>
-
-
-
-
-
+        <button class="container__submitButton">Submit</button>
+    </div>
 </body>
 
 </html>
