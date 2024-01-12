@@ -1,119 +1,99 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
 }
 
 body {
-    background-color: #8EE0DC;
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
 }
 
-form {
+.inputs__wrapper {
     display: flex;
-    margin: 2rem auto;
+    gap: 0.5rem;
+}
+
+.input__wrapper {
+    display: flex;
+    background: none;
+    width: 38rem;
     flex-direction: column;
-    background-color: #33435C;
-    gap: 1rem;
-    border: 5px solid black;
-    width: 700px;
-    padding: 2rem;
 }
 
-input {
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    background-color: #33435C;
-    color: #FEE593;
-
+.fullNameInputWrapper {
+    width: 19rem;
 }
 
-span {
-    width: 170px;
-    color: white;
+.input__wrapper input, .input__wrapper select {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 1.6rem;
 }
 
-select {
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    outline: none;
-    background-color: #33435C;
-    color: #FEE593;
+.input__wrapper p {
+    font-size: 1.2rem;
 }
 
-div {
-    padding-top: 1rem;
-}
-
-.a {
-    text-align: center;
-    color: #FEE593;
-    font-size: 2rem;
-}
-
-.b {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-.center {
-    width: 400px;
-}
-
-.flex {
+.label__wrapper {
     display: flex;
+    gap: 0.3rem;
+}
+
+.radio-row {
+    padding-right: 32rem !important;
+}
+
+.container {
+    display: flex;
+    padding: 3rem 1rem;
+    width: 70rem;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(5, 39, 118);
+    box-shadow: 0 0 1rem black;
+}
+
+.container__header {
+    text-align: center;
+}
+
+.container__header h1 {
+    color: yellow;
+    font-size: 3rem;
+}
+
+.container__header p {
+    font-size: 1.5rem;
+}
+
+.container__body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.6rem;
+    gap: 1.5rem;
+}
+
+.row {
+    display: flex;
+    padding: 0 2rem;
     justify-content: space-between;
 }
 
-.fullname {
-    display: flex
+.container__submitButton {
+    width: 12rem;
+    font-size: 2.5rem;
+    border-radius: 2rem;
+    background-color: yellow;
 }
 
-.fullnameinput {
-    width: 190px;
-}
+.red {
+    color: red;
 
-.fullname div {
-    display: flex;
-    gap: 20px;
-}
-
-.radiocenter {
-    display: flex;
-
-}
-
-.radiocenterinput {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    padding-left: 11.5rem;
-}
-
-.submit {
-    margin: 0 auto;
-    border-radius: 20px;
-    width: 150px;
-    height: 50px;
-    background-color: #FFE591;
-    color: #33435C;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.surgerydetails {
-    padding-bottom: 3rem;
-}
-
-.labelfirst {
-    position: absolute;
-    margin: 1.2rem 0.1rem;
-    color: white;
-}
-
-.labellast {
-    position: absolute;
-    margin: 1.2rem 0.1rem;
-    color: white;
 }
