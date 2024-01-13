@@ -1,99 +1,92 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    background-color: cyan;
+    background-color: #FAF9FE;
 }
 
-.inputs__wrapper {
+.section3head {
     display: flex;
-    gap: 0.5rem;
-}
-
-.input__wrapper {
-    display: flex;
-    background: none;
-    width: 38rem;
     flex-direction: column;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
-.fullNameInputWrapper {
-    width: 19rem;
-}
-
-.input__wrapper input, .input__wrapper select {
-    background: none;
-    border: none;
-    border-bottom: 2px solid white;
-    font-size: 1.6rem;
-}
-
-.input__wrapper p {
-    font-size: 1.2rem;
-}
-
-.label__wrapper {
-    display: flex;
-    gap: 0.3rem;
-}
-
-.radio-row {
-    padding-right: 32rem !important;
-}
-
-.container {
-    display: flex;
-    padding: 3rem 1rem;
-    width: 70rem;
-    margin-top: 2rem;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    background-color: rgb(5, 39, 118);
-    box-shadow: 0 0 1rem black;
-}
-
-.container__header {
+.section3headp1 {
+    font-size: 2rem;
+    font-weight: 800;
     text-align: center;
 }
 
-.container__header h1 {
-    color: yellow;
-    font-size: 3rem;
+.section3headp2 {
+    text-align: center;
+    padding-top: 10px;
+    color: #BEBEBE;
 }
 
-.container__header p {
+.section3menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1080px;
+    margin: 5rem auto;
+    background-color: #FAFCFC;
+}
+
+.section3menulist {
+    border: 1px solid #e2ebf0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3menulist:hover {
+    background-color: red;
+    color: white;
+}
+
+.section3menulist1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.section3menulist2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menuitem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1080px;
+    margin: 5rem auto;
+    background-color: #FFFFFF;
+}
+
+.menuitems {
+    border: 1px solid #FFFFFF;
+    margin: 2rem;
+}
+
+.menuitemsdiv {
+    padding: 1rem;
+}
+
+.menuitemsspan {
     font-size: 1.5rem;
+    font-weight: 900;
 }
 
-.container__body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-size: 1.6rem;
-    gap: 1.5rem;
-}
-
-.row {
-    display: flex;
-    padding: 0 2rem;
-    justify-content: space-between;
-}
-
-.container__submitButton {
-    width: 12rem;
-    font-size: 2.5rem;
-    border-radius: 2rem;
-    background-color: yellow;
-}
-
-.red {
+.menuitemsspan1 {
+    padding-left: 16rem;
+    font-weight: 600;
+    font-size: 2rem;
     color: red;
 
+}
+
+.menuitemsspanp {
+    padding: 1rem;
 }
