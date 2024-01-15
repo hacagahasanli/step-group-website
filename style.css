@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700');
+
 * {
     margin: 0;
     padding: 0;
@@ -83,10 +85,183 @@ body {
     padding-left: 16rem;
     font-weight: 600;
     font-size: 2rem;
-    color: red;
+    font-family: "Poppins",sans-serif;
+}
 
+#landing {
+    height: 100vh;
+    background-image: url('assets/landing-bg.webp');
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    padding-top: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.navbar__line {
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.navbar__items {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar__items a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__items a:hover {
+    color: red;
+    transition: .5s;
 }
 
 .menuitemsspanp {
     padding: 1rem;
+}
+
+.landing__container__wrapper {
+    padding-top: 11rem;
+    padding-left: 21%;
+}
+
+.landing__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.landing__container h6 {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.landing__container h1 {
+    font-size: 60px;
+}
+
+.landing__container p {
+    font-size: 14px;
+    font-weight: 300;
+    width: 515px;
+}
+
+.landing__container button {
+    width: 12rem;
+    margin-top: 0.5rem;
+    padding: 0.6rem 0;
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.landing__container button:hover {
+    background-color: #282828;
+    transition: .3s;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexAllCenter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    background-image: url(./pexels-photo-6210916.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_content {
+    justify-content: space-between;
+    width: 1180px;
+    height: 700px;
+    margin: 0 auto;
+    color: white;
+}
+
+.div_content1 {
+    width: 500px;
+    height: 700px;
+}
+
+.div_content1 h4 {
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.div_content1 p {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.div_content2 {
+    width: 500px;
+    height: 700px;
+}
+
+form {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.input form {
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    padding-left: 1rem;
+    margin-bottom: 1rem !important;
+}
+
+select {
+    color: #757575;
+    padding-left: 1rem;
+    width: 320px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 320px;
+    height: 50px;
+    border-style: none;
+    padding-left: 1rem;
+    background-color: red;
+    color:white;
+    margin-top: 1rem !important;
+    font-weight: bold;
 }
