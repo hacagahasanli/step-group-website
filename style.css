@@ -1,99 +1,94 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+.flex {
+    display: flex;
 }
 
-body {
+.flexAllCenter {
     display: flex;
-    justify-content: center;
-    background-color: cyan;
-}
-
-.inputs__wrapper {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.input__wrapper {
-    display: flex;
-    background: none;
-    width: 38rem;
     flex-direction: column;
-}
-
-.fullNameInputWrapper {
-    width: 19rem;
-}
-
-.input__wrapper input, .input__wrapper select {
-    background: none;
-    border: none;
-    border-bottom: 2px solid white;
-    font-size: 1.6rem;
-}
-
-.input__wrapper p {
-    font-size: 1.2rem;
-}
-
-.label__wrapper {
-    display: flex;
-    gap: 0.3rem;
-}
-
-.radio-row {
-    padding-right: 32rem !important;
+    text-align: center;
+    justify-content: center;
 }
 
 .container {
-    display: flex;
-    padding: 3rem 1rem;
-    width: 70rem;
-    margin-top: 2rem;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    background-color: rgb(5, 39, 118);
-    box-shadow: 0 0 1rem black;
-}
-
-.container__header {
-    text-align: center;
-}
-
-.container__header h1 {
-    color: yellow;
-    font-size: 3rem;
-}
-
-.container__header p {
-    font-size: 1.5rem;
-}
-
-.container__body {
-    display: flex;
-    flex-direction: column;
+    margin: 0 auto;
     width: 100%;
-    font-size: 1.6rem;
-    gap: 1.5rem;
+    height: 800px;
+    background-image: url(./pexels-photo-6210916.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.row {
-    display: flex;
-    padding: 0 2rem;
+.div_content {
     justify-content: space-between;
+    width: 1180px;
+    height: 700px;
+    margin: 0 auto;
+    color: white;
 }
 
-.container__submitButton {
-    width: 12rem;
-    font-size: 2.5rem;
-    border-radius: 2rem;
-    background-color: yellow;
+.div_content1 {
+    width: 500px;
+    height: 700px;
 }
 
-.red {
-    color: red;
+.div_content1 h4 {
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
 
+.div_content1 p {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.div_content2 {
+    width: 500px;
+    height: 700px;
+}
+
+form {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.input form {
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    padding-left: 1rem;
+    margin-bottom: 1rem !important;
+}
+
+select {
+    color: #757575;
+    padding-left: 1rem;
+    width: 320px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 320px;
+    height: 50px;
+    border-style: none;
+    padding-left: 1rem;
+    background-color: red;
+    color:white;
+    margin-top: 1rem !important;
+    font-weight: bold;
 }
