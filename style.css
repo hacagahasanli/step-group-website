@@ -1,3 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+#landing {
+    height: 100vh;
+    background-image: url('assets/landing-bg.webp');
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    padding-top: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.navbar__line {
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.navbar__items {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar__items a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__items a:hover {
+    color: red;
+    transition: .5s;
+}
+
+.landing__container__wrapper {
+    padding-top: 11rem;
+    padding-left: 21%;
+}
+
+.landing__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.landing__container h6 {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.landing__container h1 {
+    font-size: 60px;
+}
+
+.landing__container p {
+    font-size: 14px;
+    font-weight: 300;
+    width: 515px;
+}
+
+.landing__container button {
+    width: 12rem;
+    margin-top: 0.5rem;
+    padding: 0.6rem 0;
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.landing__container button:hover {
+    background-color: #282828;
+    transition: .3s;
+}
+
 .flex {
     display: flex;
 }
