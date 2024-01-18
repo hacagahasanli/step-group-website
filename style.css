@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700');
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     background-color: #FAF9FE;
@@ -171,6 +167,8 @@ body {
     transition: .3s;
 }
 
+
+/* Section4 */
 .flex {
     display: flex;
 }
@@ -182,11 +180,11 @@ body {
     justify-content: center;
 }
 
-.container {
+.container_section3 {
     margin: 0 auto;
     width: 100%;
     height: 800px;
-    background-image: url(./pexels-photo-6210916.jpeg);
+    background-image: url(./assets/pexels-photo-6210916.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,25 +220,25 @@ body {
     height: 700px;
 }
 
-form {
+.form_section4{
     height: 500px;
     display: flex;
     flex-direction: column;
 }
 
-.input {
+.input_section4 {
     background-color: white;
     width: 400px;
     height: 500px;
     margin: 0 auto;
 }
 
-.input form {
+.form_section4 {
     align-items: center;
     justify-content: center;
 }
 
-input {
+.input_items {
     width: 300px;
     height: 50px;
     padding-left: 1rem;
@@ -252,10 +250,10 @@ select {
     padding-left: 1rem;
     width: 320px;
     height: 50px;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;  
 }
 
-button {
+.button_section4{
     width: 320px;
     height: 50px;
     border-style: none;
@@ -265,3 +263,178 @@ button {
     margin-top: 1rem !important;
     font-weight: bold;
 }
+
+/* Section4 END */
+
+
+
+
+
+/* Section 8 */
+
+
+.cite_footer {
+    width: 100%;
+    height: 400px;
+    background-color: #f42f2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1180px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.section_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.content1 {
+    width: 380px;
+    height: 300px;
+}
+
+.content1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content1 h4 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.content1 ul li {
+    border-bottom: 1px solid rgba(238, 238, 238, 0.3);
+    font-size: 1.3rem;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.content1 span {
+    width: 190px;
+}
+
+.content1 span:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content1 li {
+    display: flex;
+    flex-direction: row;
+}
+
+.content2 {
+    margin-left: 2rem;
+    width: 380px;
+    height: 300px;
+}
+
+.content2 h4 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.content2 p {
+    font-size: 20px;
+    height: 50px;
+    margin-top: 1rem;
+
+}
+
+.content2 p:nth-child(3) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.content3 {
+    width: 380px;
+    height: 300px;
+}
+
+.content3 h4 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.content3 p {
+    font-size: 20px;
+    height: 50px;
+}
+
+.input_section8 {
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    padding-left: 1rem;
+    position: absolute;
+}
+
+input:hover{
+    border: none;
+    outline: none;
+}
+
+.button_section8{
+    top: 1px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    left: 18.6rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border-style: none;
+    position: relative;
+    background-color: #f42f2c;
+}
+
+.second_footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color:white;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+}
+
+.footer_content{
+    display: flex;
+    gap: .5rem;
+}
+
+.footer_content p:nth-child(2){
+    border-left: 1px solid white;
+    padding-left: .5rem ;
+}
+
+.footer_content span{
+    color: red;
+}
+
+
+.icons ul{
+    gap: 1rem;
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.icons ul li:hover{
+    background-color: red;
+}
+
+/* Section 8 */
